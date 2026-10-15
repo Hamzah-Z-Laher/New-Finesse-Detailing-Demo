@@ -1376,3 +1376,6 @@ html.fd-intro-active .brand { opacity: 0; }
   45% { filter: drop-shadow(0 0 22px rgba(64, 164, 160, 0.65)); }
   100% { filter: drop-shadow(0 0 0 rgba(64, 164, 160, 0)); }
 }
+
+/* Nav "Get a quote" button doubles as the Contact link: ring it on the contact page */
+.nav .btn[aria-current="page"] { box-shadow: 0 0 0 3px rgba(64, 164, 160, 0.35); }
