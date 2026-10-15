@@ -299,7 +299,7 @@
     }
     service.addEventListener("change", syncPackage);
 
-    // Pre-select from URL, e.g. contact.html?service=Car%20Detailing&package=Finesse%20Premium%20Pro
+    // Pre-select from URL, e.g. contact/?service=Car%20Detailing&package=Finesse%20Premium%20Pro
     var params = new URLSearchParams(window.location.search);
     if (params.get("service")) service.value = params.get("service");
     if (params.get("package")) {
